@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: green;
+}
+
+.dice_container {
+    display: block;
+    width: 90%;
+    padding: 10px 0;
+    margin: 10px auto;
+    background-color: white;
+}
+
+.dice_result {
+    display: block;
+    width: 100%;
+    margin: 0 auto 20px;
+}
+
+#dice_value {
+    display: flex;
+    width: 250px;
+    margin: 0 auto 20px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+h1 {
+    display: block;
+    font-size: 40px;
+}
+
+.dice_button {
+    display: flex;
+    margin: 0 auto 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.dice_hidden {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#dice_hidden_button {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    font-size: 8px;
+    color: grey;
+}

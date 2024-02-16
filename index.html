@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="images/1.png">
+    <title>Dice</title>
+</head>
+<body>
+    <div class="dice_container">
+        <div class="dice_result">
+            <div id="dice_value"></div>
+        </div>
+        <div class="dice_button">
+            <button onclick="roll_dice()">Roll dice</button>
+        </div>
+        <div class="dice_hidden">
+            <div id="dice_hidden_button" onclick="manage_possibilities()"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
